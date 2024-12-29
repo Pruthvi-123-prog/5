@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+        header, footer {
+            background-color: #3b5998;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #bec9d4;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        a{
+            margin: 12px;
+            text-decoration: none;
+            color: #3b5998;
+        }
+        
+        article {
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        aside {
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        figure {
+            margin:0;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            text-align: center;
+        }
+        figcaption {
+            font-size: 14px;
+            color: #555;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Newspaper</h1>
+        </header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#world">World</a>
+            <a href="#sports">Sports</a>
+            <a href="#entertainment">Entertainment</a>
+            <a href="#kids">Kids</a>
+            <a href="#cloths">Cloths</a>
+            <a href="#technology">Technology</a>
+            <a href="#fashion">Fashion</a>
+        </nav>
+        <section>
+            <article>
+                <h2>Main Article</h2>
+                <p>This is the main article content. It's styled with a light blue background and padding for a better reading experience.</p>
+            </article>
+            <aside>
+                <h2>Side Note</h2>
+                <p>This is a side note or related article. It's placed in an aside element and styled similarly to the main article.</p>
+            </aside>
+            <figure>
+                <img src="sdit.jpg" alt="Example Image" style="max-width: 100%;">
+                <figcaption>About Shree Devi Institute of Technology.</figcaption>
+            </figure>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                    </tr>
+                    <tr>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <footer>
+            <p>&copy; 2024 My Newspaper. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
